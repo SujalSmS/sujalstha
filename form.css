@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+/* Navigation Bar */
+nav{
+    margin: auto;
+    width: 100%;
+}
+/* Email CSS */
+.mb-3{
+    margin-top: 10px;
+}
+/* Description */
+.desc{
+    margin-top: 10px;
+}
+h1{
+    max-width: 30%;
+    background-color: lightblue;
+    padding: 1px;
+    margin : auto;
+    margin-top: 8px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    align-items: center;
+}
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -5px;
+}

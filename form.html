@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Contact-Me</title>
+    <link rel="icon" href="we.jpg" type="image/icon type">
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="">
+              <div class="logo-image">
+                    <img src="we.jpg" class="img-fluid">
+              </div>
+        </a></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="form.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+    <br>
+    <h1 align = "center"><marquee behavior="alternate">Contact Me!</marquee>
+</h1>
+    <br>
+    <form action="smsdb.php" method="post">
+      <div class="container">
+        <div class="class">
+          <label for="name" class="form-label"><b>Your Name</b></label>
+          <input type="name" name = "name" id = "name" class="form-control" placeholder="Enter Your Name">
+        </div>
+  <div class="mb-3">
+    <label for="email" class="form-label"><b>Your Email</b></label>
+    <input type="email" name = "email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Your Email">
+    <div id="email" class="form-text"></div>
+  </div>
+  <div class="class">
+    <label for="number" class="form-label"><b>Your Phone Number</b></label>
+    <input type="number" name="phone" id="phone" class= "form-control" placeholder="Enter Your Number">
+  </div>
+ <div class="desc">
+   <label for="text"><b>Describe what you want to contact me for</b></label>
+  <textarea name="desc" id="desc" cols="10" rows="5" class="form-control" placeholder="Your message"></textarea>
+ </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
